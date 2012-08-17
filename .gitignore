@@ -1,2 +1,6 @@
 
 *.userprefs
+*/bin
+*/obj
+*/obj/*
+*/bin/*
