@@ -70,13 +70,17 @@ namespace TestBinding
 		//@property (assign, nonatomic) id<MyTestDataSource> dataSource;
 		[Export("dataSource")]
 		MyTestDataSource DataSource { get; set; }
+
+		//- (CGSize) executeSizeTest;
+		[Export("executeSizeTest")]
+		SizeF ExecuteSizeTest();
 	}
 
 	[BaseType(typeof(NSObject)), Model]
 	interface MyTestDataSource 
 	{
 		//- (CGSize)getSizeForMyTest;
-		[Export("getSizeForMyTest")]
+		[Export("getSizeForMyTest"), Abstract]
 		SizeF GetSizeForMyTest();
 	}
 }

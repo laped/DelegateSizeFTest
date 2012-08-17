@@ -3,6 +3,7 @@ using System.Drawing;
 
 using MonoTouch.Foundation;
 using MonoTouch.UIKit;
+using TestBinding;
 
 namespace SizeTestApp
 {
@@ -24,7 +25,15 @@ namespace SizeTestApp
 		{
 			base.ViewDidLoad ();
 
+			View.BackgroundColor = UIColor.White;
 
+			View.Add (new UILabel (new RectangleF (10, 10, 300, 40)){ Text = "This is a delegate test" });
+
+			DelegateTestLibrary testLib = new DelegateTestLibrary ();
+			testLib.DataSource = new TestDataSource ();
+
+			SizeF sizeFromObjC = testLib.ExecuteSizeTest ();
+			Console.WriteLine ("Size received from Obj-C - width: " + sizeFromObjC.Width + " height: " + sizeFromObjC.Height);
 		}
 		
 		public override void ViewDidUnload ()
@@ -36,6 +45,15 @@ namespace SizeTestApp
 		{
 			// Return true for supported orientations
 			return (toInterfaceOrientation != UIInterfaceOrientation.PortraitUpsideDown);
+		}
+
+		class TestDataSource : MyTestDataSource
+		{
+			public override SizeF GetSizeForMyTest ()
+			{
+				Console.WriteLine ("GetSizeForMyTest");
+				return new SizeF (80, 80);
+			}
 		}
 	}
 }

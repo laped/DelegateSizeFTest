@@ -15,6 +15,8 @@
 
 @property (assign, nonatomic) id<MyTestDataSource> dataSource;
 
+- (CGSize) executeSizeTest;
+
 @end
 
 @protocol MyTestDataSource <NSObject>

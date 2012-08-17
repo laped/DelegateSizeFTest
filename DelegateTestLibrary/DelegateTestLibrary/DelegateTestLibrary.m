@@ -12,7 +12,7 @@
 
 @synthesize dataSource = _dataSource;
 
-- (CGSize)getSizeTest
+- (CGSize)executeSizeTest
 {
     CGSize size = [_dataSource getSizeForMyTest];
     NSLog(@"getSizeTest - width=%f - height=%f", size.width, size.height);
