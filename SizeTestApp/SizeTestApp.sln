@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SizeTestApp", "SizeTestApp\SizeTestApp.csproj", "{2A25D51F-508E-45F1-9B63-C12F37DE1C0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestBinding", "TestBinding\TestBinding.csproj", "{30712886-2201-42D3-BC2D-899412DF4910}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A25D51F-508E-45F1-9B63-C12F37DE1C0B}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{2A25D51F-508E-45F1-9B63-C12F37DE1C0B}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{2A25D51F-508E-45F1-9B63-C12F37DE1C0B}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{2A25D51F-508E-45F1-9B63-C12F37DE1C0B}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{2A25D51F-508E-45F1-9B63-C12F37DE1C0B}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{2A25D51F-508E-45F1-9B63-C12F37DE1C0B}.Debug|iPhone.Build.0 = Debug|iPhone
+		{2A25D51F-508E-45F1-9B63-C12F37DE1C0B}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{2A25D51F-508E-45F1-9B63-C12F37DE1C0B}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{2A25D51F-508E-45F1-9B63-C12F37DE1C0B}.Release|iPhone.ActiveCfg = Release|iPhone
+		{2A25D51F-508E-45F1-9B63-C12F37DE1C0B}.Release|iPhone.Build.0 = Release|iPhone
+		{2A25D51F-508E-45F1-9B63-C12F37DE1C0B}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{2A25D51F-508E-45F1-9B63-C12F37DE1C0B}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{30712886-2201-42D3-BC2D-899412DF4910}.Ad-Hoc|iPhone.ActiveCfg = Debug|Any CPU
+		{30712886-2201-42D3-BC2D-899412DF4910}.Ad-Hoc|iPhone.Build.0 = Debug|Any CPU
+		{30712886-2201-42D3-BC2D-899412DF4910}.AppStore|iPhone.ActiveCfg = Debug|Any CPU
+		{30712886-2201-42D3-BC2D-899412DF4910}.AppStore|iPhone.Build.0 = Debug|Any CPU
+		{30712886-2201-42D3-BC2D-899412DF4910}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{30712886-2201-42D3-BC2D-899412DF4910}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{30712886-2201-42D3-BC2D-899412DF4910}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{30712886-2201-42D3-BC2D-899412DF4910}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{30712886-2201-42D3-BC2D-899412DF4910}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{30712886-2201-42D3-BC2D-899412DF4910}.Release|iPhone.Build.0 = Release|Any CPU
+		{30712886-2201-42D3-BC2D-899412DF4910}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{30712886-2201-42D3-BC2D-899412DF4910}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = SizeTestApp\SizeTestApp.csproj
+	EndGlobalSection
+EndGlobal
