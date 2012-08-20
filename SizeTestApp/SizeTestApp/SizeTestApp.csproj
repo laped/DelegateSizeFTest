@@ -79,6 +79,9 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="monotouch" />
+    <Reference Include="TestBinding">
+      <HintPath>..\TestBinding\TestBinding.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />
@@ -89,10 +92,4 @@
     <Compile Include="MainController.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
-  <ItemGroup>
-    <ProjectReference Include="..\TestBinding\TestBinding.csproj">
-      <Project>{30712886-2201-42D3-BC2D-899412DF4910}</Project>
-      <Name>TestBinding</Name>
-    </ProjectReference>
-  </ItemGroup>
 </Project>

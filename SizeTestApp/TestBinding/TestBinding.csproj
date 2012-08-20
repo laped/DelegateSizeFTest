@@ -43,11 +43,6 @@
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Xamarin.ObjcBinding.CSharp.targets" />
   <ItemGroup>
-    <ObjcBindingNativeLibrary Include="libDelegateTestLibrary.a" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="libDelegateTestLibrary.linkwith.cs">
-      <DependentUpon>libDelegateTestLibrary.a</DependentUpon>
-    </Compile>
+    <Compile Include="AssemblyInfo.cs" />
   </ItemGroup>
 </Project>
